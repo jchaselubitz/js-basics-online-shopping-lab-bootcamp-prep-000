@@ -77,7 +77,7 @@ function removeFromCart(item) {
 }
 }
 
-console.log(removeFromCart("candy"))
+//console.log(removeFromCart("candy"))
 console.log(removeFromCart("fruit"))
 
 
