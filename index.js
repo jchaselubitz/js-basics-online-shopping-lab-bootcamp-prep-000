@@ -63,12 +63,12 @@ removeFromCart("fruit")
 function search(item, cart) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].item === itemName) {
-        return cart[i]
+        something = cart[i]
     }
-  }
+  } return cart
 }
 console.log(search())
-*/*
+/*
 
 function removeFromCart(item) {
   var i = 0
