@@ -68,6 +68,7 @@ function search(item) {
         else {
           return "That item is not in your cart."
         }
+      }
   } return Num
 }
 console.log(`this is search ${search()}`)
@@ -78,7 +79,7 @@ function removeFromCart(item) {
   if (Num > -1){
     console.log("here")
     //delete cart[Num]
-  } 
+  }
 }
 //console.log(removeFromCart())
 //console.log(cart)
