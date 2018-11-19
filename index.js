@@ -59,7 +59,6 @@ function total() {
 
 
 
-removeFromCart("candy")
 
 function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
@@ -75,7 +74,7 @@ function removeFromCart(item) {
     }
 }
 
-console.log(removeFromCart())
+console.log(removeFromCart("candy"))
 
 //console.log(removeFromCart())
 //console.log(cart)
