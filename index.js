@@ -73,7 +73,7 @@ function removeFromCart(item) {
     }
 }
 
-console.log(removeFromCart("candy"))
+console.log(removeFromCart("fruit"))
 
 //console.log(removeFromCart())
 //console.log(cart)
