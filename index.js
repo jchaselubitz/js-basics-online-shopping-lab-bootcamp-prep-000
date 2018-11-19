@@ -79,7 +79,7 @@ function removeFromCart(item) {
     if (cart[i].itemName === item){
       return i
     }
-    console.log(`This is the itemNum: ${itemNum}`)
+    console.log(`This is the itemNum: ${i}`)
     return
   }
   if (itemNum > -1){
