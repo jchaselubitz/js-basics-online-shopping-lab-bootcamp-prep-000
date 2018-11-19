@@ -61,24 +61,25 @@ function total() {
 
 removeFromCart("fruit")
 
-function search(item) {
+function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
-        Num = i
-      }
-  } return Num
+        itemNum = i
+        if (itemNum > -1){
+          console.log("here")
+          //This needs to delete it from the cart
+        }
+      } else {
+        return "That item is not in your cart."
+      } 
+    }
+console.log(removeFromCart())
 }
-console.log(`this is search ${search()}`)
 
-
-function removeFromCart(item) {
-  search(item)
-  if (Num > -1){
-    console.log("here")
-    //This needs to delete it from the cart
+  
+    
   } else {
-      return "That item is not in your cart."
-  }
+      
 }
 //console.log(removeFromCart())
 //console.log(cart)
