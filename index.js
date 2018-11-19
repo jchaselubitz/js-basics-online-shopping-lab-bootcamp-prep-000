@@ -58,9 +58,6 @@ function total() {
 }
 
 
-
-
-
 removeFromCart("fruit")
 
 function search(item, cart) {
@@ -69,6 +66,7 @@ function search(item, cart) {
 }
 console.log(search())
 
+/*
 function removeFromCart(item) {
   var i = 0
   while (cart.length > i) {
