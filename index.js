@@ -55,19 +55,22 @@ function total() {
   for (var i = 0; i < countingArray.length; i++) {
     var adder = countingArray[i]
     counter = counter + adder
-
   }
   return counter
 }
 
-function adder (a, b) {
-  return a + b
-}
-
 console.log(total())
 
+
 function removeFromCart(item) {
-  // write your code here
+  if (cart.item = true){
+    indexToRemove = cart.indexOf(item)
+    delete cart[indexToRemove]
+    console.log(cart)
+    return cart
+  } else {
+    return "That item is not in your cart."
+  }
 }
 
 function placeOrder(cardNumber) {
