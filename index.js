@@ -59,7 +59,7 @@ function total() {
 
 
 
-console.log(cart[0][itemName])
+
 
 removeFromCart("fruit")
 
@@ -67,6 +67,7 @@ function search(item, cart) {
   for (var i = 0; i < cart.length; i++) {
     return cart[i]
 }
+console.log(search())
 
 function removeFromCart(item) {
   var i = 0
