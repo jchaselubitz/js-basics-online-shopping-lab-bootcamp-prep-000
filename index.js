@@ -72,7 +72,7 @@ function search(item) {
 console.log(search())
 */
 
-removeFromCart("fruit")
+removeFromCart("candy")
 
 function removeFromCart(item) {
   for (var i = 0; cart.length > i; i++) {
