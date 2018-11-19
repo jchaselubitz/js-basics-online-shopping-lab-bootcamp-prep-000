@@ -66,7 +66,7 @@ removeFromCart("fruit")
 function removeFromCart(item) {
   var i = 0
   while (cart.length > i) {
-    if (cart[i](itemName) === item){
+    if (cart[i][itemName] === item){
       return i
     } else {
       i++
