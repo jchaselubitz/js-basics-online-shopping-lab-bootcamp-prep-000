@@ -69,7 +69,7 @@ function search(item) {
         var Num = 0
         Num = cart[i]
     }
-  } return cart[i]
+  } return Num
 }
 console.log(`this is search ${search()}`)
 
