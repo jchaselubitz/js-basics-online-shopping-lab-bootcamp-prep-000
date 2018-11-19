@@ -52,7 +52,6 @@ function total() {
     console.log(countingArray)
   }
   var counter = 0
-  //console.log(typeof counterArray[1])
   for (var i = 0; i < countingArray.length; i++) {
     var adder = countingArray[i]
     counter = counter + adder
