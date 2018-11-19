@@ -68,7 +68,7 @@ function search(item) {
     }
   } return i
 }
-console.log(`this is search ${search()}`)
+console.log(`this is search ${i}`)
 
 
 function removeFromCart(item) {
