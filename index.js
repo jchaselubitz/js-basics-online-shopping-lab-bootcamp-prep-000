@@ -59,7 +59,7 @@ function total() {
 
 
 
-search("candy")
+search("fruit")
 
 function search(item) {
   var Num = 0
