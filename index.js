@@ -62,7 +62,6 @@ function total() {
 search("fruit")
 
 function search(item) {
-  var Num = 0
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
         console.log(cart[i])
