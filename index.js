@@ -75,7 +75,8 @@ function removeFromCart(item) {
 }
 }
 
-console.log(removeFromCart("candy"))
+console.log(`for candy ${removeFromCart("candy")}`)
+console.log(`for candy ${removeFromCart("fruit")}`)
 
 
 /*
