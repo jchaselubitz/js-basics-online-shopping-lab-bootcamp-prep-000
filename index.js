@@ -68,7 +68,7 @@ function search(item) {
         console.log(cart[i])
         return cart[i]
     }
-  } 
+  } return
 }
 console.log(`this is search ${search()}`)
 
