@@ -65,10 +65,11 @@ function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
         return cart[i]
+        console.log(cart[i])
     }
-  } console.log(`this is search ${i}`)
+  } return i
 }
-
+console.log(`this is search ${search()}`)
 
 
 function removeFromCart(item) {
