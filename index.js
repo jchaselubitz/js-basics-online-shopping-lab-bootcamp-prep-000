@@ -58,7 +58,7 @@ function total() {
 }
 
 
-removeFromCart("fruit")
+
 
 /*
 search ("fruit")
@@ -72,11 +72,14 @@ function search(item) {
 console.log(search())
 */
 
+removeFromCart("fruit")
+
 function removeFromCart(item) {
   for (var i = 0; cart.length > i; i++) {
     if (cart[i].itemName === item){
       var itemNum = i
     }
+    console.log(`This is the itemNum: ${itemNum}`)
     return itemNum
   }
   if (itemNum > -1){
