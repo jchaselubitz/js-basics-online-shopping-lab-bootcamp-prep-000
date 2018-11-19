@@ -75,6 +75,9 @@ function removeFromCart(item) {
 }
 }
 
+console.log(removeFromCart("candy"))
+
+
 /*
 function removeFromCart(item) {
   var i = 0
@@ -94,7 +97,7 @@ function removeFromCart(item) {
 */
 
 
-console.log(removeFromCart("fruit"))
+
 
 
 
