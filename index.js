@@ -71,7 +71,7 @@ function search(item) {
     }
   } return i
 }
-console.log(search())
+console.log(`this is ${search()}`)
 
 
 function removeFromCart(item) {
