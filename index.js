@@ -65,20 +65,16 @@ function search(item) {
     if (cart[i].itemName === item) {
         itemToRemove = cart[i]
     }
-  } return itemToRemove
+  } return i
 }
 console.log(search())
 /*
 
 function removeFromCart(item) {
-  var i = 0
-  while (cart.length > i) {
+  for (var i = 0; cart.length > i; i++) {
     var blah = cart[i]
-    //console.log(cart.itemName])
-  if (blah[itemName] === item){
+  if (blah.itemName === item){
       return i
-    } else {
-      i++
     }
     return i
   }
