@@ -60,7 +60,7 @@ function total() {
 
 //removeFromCart("fruit")
 
-function search(item, cart) {
+function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].item === itemName) {
         something = cart[i]
