@@ -49,15 +49,15 @@ function total() {
     var price = cart[i].itemPrice
     console.log(cart[i].itemPrice)
     countingArray.push(price)
+    console.log(countingArray)
   }
-
+  var counter = 0
   for (var i = 0; i < countingArray; i++) {
-    var counter = 0
     var adder = countingArray[i]
     counter = counter + adder
-    return counter
+    
   }
-
+  return counter
 }
 
 function adder (a, b) {
