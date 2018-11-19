@@ -64,7 +64,7 @@ search("candy")
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
-        return cart[i]
+        Num = i
     } else {
       console.log("oops")
     }
