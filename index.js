@@ -61,7 +61,9 @@ function total() {
 
 
 
-search ("fruit")
+
+removeFromCart("candy")
+
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
@@ -72,10 +74,9 @@ function search(item) {
 console.log(search())
 
 
-removeFromCart("candy")
-
 function removeFromCart(item) {
-  search(item)
+  var itemNum = search(item)
+  
   }
   if (itemNum > -1){
     delete cart[itemNum]
