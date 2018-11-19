@@ -64,12 +64,11 @@ search("candy")
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
-        console.log(cart[i])
-        return true
+        return cart[i]
     } else {
       console.log("oops")
     }
-  } return i
+  } return cart[i]
 }
 console.log(`this is search ${search()}`)
 
