@@ -64,6 +64,15 @@ console.log(cart[1])
 removeFromCart("fruit")
 
 function removeFromCart(item) {
+  while (cart.length > i) {
+    if (cart[i](itemName) === item){
+      return i
+    } else {
+      i++
+    }
+    return i
+  }
+  console.log(i)
   console.log(cart.indexOf(item));
   if (cart.indexOf(item) > -1){
     var indexToRemove = cart.indexOf(item)
