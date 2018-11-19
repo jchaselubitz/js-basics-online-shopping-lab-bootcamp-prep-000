@@ -66,6 +66,7 @@ function search(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
         console.log(cart[i])
+        var Num = 0
         Num = cart[i]
     }
   } return cart[i]
