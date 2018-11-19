@@ -45,7 +45,6 @@ function viewCart() {
 
 function total() {
   var countingArray = []
-  console.log(typeof countingArray[i])
   for (var i = 0; i < cart.length; i++) {
     var price = cart[i].itemPrice
     console.log(cart[i].itemPrice)
@@ -53,6 +52,7 @@ function total() {
     console.log(countingArray)
   }
   var counter = 0
+  console.log(typeof counterArray[1])
   for (var i = 0; i < countingArray; i++) {
     var adder = countingArray[i]
     console.log(adder)
