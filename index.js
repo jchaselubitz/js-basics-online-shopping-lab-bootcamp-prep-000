@@ -67,9 +67,8 @@ function search(item) {
     if (cart[i].itemName === item) {
         console.log(cart[i])
         return cart[i]
-        var eee = i
     }
-  } return eee
+  } 
 }
 console.log(`this is search ${search()}`)
 
