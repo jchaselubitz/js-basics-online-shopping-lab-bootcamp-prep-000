@@ -64,7 +64,7 @@ console.log(total())
 
 function removeFromCart(item) {
   if (cart.item = true){
-    indexToRemove = cart.indexOf(item)
+    var indexToRemove = cart.indexOf(item)
     delete cart[indexToRemove]
     console.log(cart)
     return cart
