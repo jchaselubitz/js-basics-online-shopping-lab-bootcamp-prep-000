@@ -59,7 +59,7 @@ function total() {
 
 
 
-removeFromCart("candy")
+search("candy")
 
 function search(item) {
   var Num = 0
