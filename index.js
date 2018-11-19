@@ -69,7 +69,7 @@ function search(item) {
     } else {
       console.log("oops")
     }
-  } return Num
+  } return i
 }
 console.log(`this is search ${search()}`)
 
