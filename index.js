@@ -57,25 +57,21 @@ function total() {
   return counter
 }
 
-/*
+
 function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
         itemNum = i
-        if (itemNum > -1){
-          delete cart[itemNum]
-          return cart
         }
       } else {
         return "That item is not in your cart."
-      }
+      } if (itemNum > -1){
+        delete cart[itemNum]
+        return cart
     }
 }
-*/
 
-
-
-
+/*
 function removeFromCart(item) {
   var i = 0
   if (cart[i].itemName === item) {
@@ -91,6 +87,7 @@ function removeFromCart(item) {
         return "That item is not in your cart."
     }
 }
+*/
 
 
 console.log(removeFromCart("fruit"))
