@@ -60,7 +60,7 @@ function total() {
 }
 
 console.log(total())
-console.log(cart[2])
+console.log(cart[1])
 removeFromCart("fruit")
 
 function removeFromCart(item) {
