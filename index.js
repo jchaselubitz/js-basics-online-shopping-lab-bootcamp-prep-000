@@ -77,6 +77,8 @@ function removeFromCart(item) {
   if (Num > -1){
     console.log("here")
     //This needs to delete it from the cart
+  } else {
+      return "That item is not in your cart."
   }
 }
 //console.log(removeFromCart())
