@@ -65,7 +65,6 @@ function removeFromCart(item) {
     if (cart[i].itemName === item) {
         itemNum = i
         if (itemNum > -1){
-          console.log("here")
           return "here"
           //This needs to delete it from the cart
         }
