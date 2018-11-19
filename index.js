@@ -59,7 +59,7 @@ function total() {
 
 
 
-removeFromCart("fruit")
+removeFromCart("ddd")
 
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
