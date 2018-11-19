@@ -66,9 +66,9 @@ function search(item) {
     if (cart[i].itemName === item) {
         return cart[i]
     }
-  } return i
+  } console.log(`this is search ${i}`)
 }
-console.log(`this is search ${i}`)
+
 
 
 function removeFromCart(item) {
