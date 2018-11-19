@@ -81,8 +81,8 @@ function removeFromCart(item) {
     return "That item is not in your cart."
   }
 }
-console.log(removeFromCart())
-console.log(cart)
+//console.log(removeFromCart())
+//console.log(cart)
 
 
 function placeOrder(cardNumber) {
