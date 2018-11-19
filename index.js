@@ -78,9 +78,6 @@ console.log(removeFromCart())
 
   
     
-  } else {
-      
-}
 //console.log(removeFromCart())
 //console.log(cart)
 
