@@ -64,7 +64,7 @@ function removeFromCart(item) {
         itemNum = i
         if (itemNum > -1){
           delete cart[itemNum]
-          var passed = true
+          return cart
         }
     }
     if (passed === true) {
