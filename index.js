@@ -72,7 +72,7 @@ console.log(`this is search ${search()}`)
 
 
 function removeFromCart(item) {
-  var itemNum = search(item)
+  search(item)
   if (itemNum > -1){
     delete cart[itemNum]
   } else {
