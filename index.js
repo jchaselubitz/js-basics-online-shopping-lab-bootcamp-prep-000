@@ -58,7 +58,9 @@ function total() {
 }
 
 
-//removeFromCart("fruit")
+removeFromCart("fruit")
+
+/*
 search ("fruit")
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
@@ -68,24 +70,18 @@ function search(item) {
   } return i
 }
 console.log(search())
-/*
+*/
 
 function removeFromCart(item) {
   for (var i = 0; cart.length > i; i++) {
-    var blah = cart[i]
-  if (blah.itemName === item){
-      return i
+    if (cart[i].itemName === item){
+      var itemNum = i
     }
-    return i
+    return itemNum
   }
-  console.log(i)
-  console.log(cart.indexOf(item));
-  if (cart.indexOf(item) > -1){
-    var indexToRemove = cart.indexOf(item)
-    console.log(indexToRemove)
-    delete cart[indexToRemove]
+  if (itemNum > -1){
+    delete cart[itemNum]
     console.log(cart)
-    return cart
   } else {
     return "That item is not in your cart."
   }
