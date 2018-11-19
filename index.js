@@ -77,7 +77,7 @@ removeFromCart("fruit")
 function removeFromCart(item) {
   for (var i = 0; cart.length > i; i++) {
     if (cart[i].itemName === item){
-      return = i
+      return i
     }
     console.log(`This is the itemNum: ${itemNum}`)
     return
