@@ -74,7 +74,8 @@ console.log(`this is search ${search()}`)
 function removeFromCart(item) {
   search(item)
   if (Num > -1){
-    delete cart[Num]
+    console.log("here")
+    //delete cart[Num]
   } else {
     return "That item is not in your cart."
   }
