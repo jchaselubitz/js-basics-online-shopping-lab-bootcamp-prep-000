@@ -54,8 +54,9 @@ function total() {
   var counter = 0
   for (var i = 0; i < countingArray; i++) {
     var adder = countingArray[i]
+    console.log(adder)
     counter = counter + adder
-    
+
   }
   return counter
 }
