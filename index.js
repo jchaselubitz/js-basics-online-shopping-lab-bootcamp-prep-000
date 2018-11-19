@@ -62,6 +62,7 @@ function total() {
 console.log(total())
 
 removeFromCart("fruit")
+
 function removeFromCart(item) {
   if (cart.indexOf(item) > -1){
     var indexToRemove = cart.indexOf(item)
