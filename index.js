@@ -59,7 +59,7 @@ function total() {
 
 
 
-console.log(cart[0][itemName])
+console.log(cart[0]['fruit'])
 
 removeFromCart("fruit")
 
