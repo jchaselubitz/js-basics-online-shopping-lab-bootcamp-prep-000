@@ -64,9 +64,9 @@ function removeFromCart(item) {
         itemNum = i
         if (itemNum > -1){
           delete cart[itemNum]
-          return cart
           //This needs to delete it from the cart
         }
+        return cart
       } else {
         return "That item is not in your cart."
       }
