@@ -9,17 +9,60 @@ function setCart(c) {
   return cart;
 }
 
+addToCart("candy")
+addToCart("fruit")
+addToCart("sweets")
 function addToCart(item) {
- // write your code here
+    var price = Math.floor(1 + Math.random() * 100)
+    var itemInCart = {itemName: item, itemPrice: price}
+    cart.push(itemInCart)
+    return `${item} has been added to your cart.`
 }
 
+//console.log(cart)
+
 function viewCart() {
-  // write your code here
+  if (cart.length > 0) {
+    var i = 0
+    var array = []
+    while (cart.length > i) {
+      var itemPriceInCart = `${cart[i].itemName} at $${cart[i].itemPrice}`
+      array.push(itemPriceInCart)
+      i++
+    }
+    var countMinusOne = array.length - 1
+    var allBustLast = array.slice(0,countMinusOne)
+    var last = array.slice(-1)
+    if (array.length === 1) {
+      return (`In your cart, you have ${array[0]}.`)
+    } else {
+      return (`In your cart, you have ${allBustLast.join(", ")}, and ${last}.`)
+    }
+  } else {
+    return "Your shopping cart is empty."
+  }
 }
 
 function total() {
-  // write your code here
+  var countingArray = []
+  for (var i = 0; i < cart.length; i++) {
+    var price = cart[i].itemPrice
+    console.log(cart[i].itemPrice)
+    countingArray.push(price)
+  }
+  var counter = 0
+  for (var i = 0; i < countingArray; i++) {
+    var adder = countingArray[i]
+    counter = counter + adder
+  }
+  return counter
 }
+
+function adder (a, b) {
+  return a + b
+}
+
+console.log(total())
 
 function removeFromCart(item) {
   // write your code here
@@ -28,3 +71,11 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
+/* From Stackoverflow
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+*/
