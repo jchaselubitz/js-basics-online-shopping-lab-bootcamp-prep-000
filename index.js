@@ -59,7 +59,7 @@ function total() {
 
 
 
-console.log(cart[0]['fruit'])
+console.log(cart[0]['candy'])
 
 removeFromCart("fruit")
 
@@ -68,7 +68,7 @@ function removeFromCart(item) {
   while (cart.length > i) {
     var blah = cart[i]
     //console.log(cart.itemName])
-    if (blah[itemName] === item){
+  if (blah[itemName] === item){
       return i
     } else {
       i++
