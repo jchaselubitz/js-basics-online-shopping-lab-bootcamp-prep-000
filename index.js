@@ -68,7 +68,7 @@ function search(item, cart) {
   }
 }
 console.log(search())
-
+*/*
 
 function removeFromCart(item) {
   var i = 0
