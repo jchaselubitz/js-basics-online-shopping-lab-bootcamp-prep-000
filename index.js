@@ -62,12 +62,15 @@ function removeFromCart(item) {
   for (var i = 0; i < cart.length; i++) {
     if (cart[i].itemName === item) {
         itemNum = i
+        if (itemNum > -1){
+          delete cart[itemNum]
         }
-      } else {
-        return "That item is not in your cart."
-      } if (itemNum > -1){
-        delete cart[itemNum]
-        return cart
+        var passed = true
+    }
+    if (passed === true) {
+      return cart
+    } else {
+      return "That item is not in your cart."
     }
 }
 
