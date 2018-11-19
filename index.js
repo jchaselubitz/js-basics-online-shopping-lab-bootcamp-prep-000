@@ -47,9 +47,7 @@ function total() {
   var countingArray = []
   for (var i = 0; i < cart.length; i++) {
     var price = cart[i].itemPrice
-    console.log(cart[i].itemPrice)
     countingArray.push(price)
-    console.log(countingArray)
   }
   var counter = 0
   for (var i = 0; i < countingArray.length; i++) {
@@ -59,8 +57,10 @@ function total() {
   return counter
 }
 
-console.log(total())
-console.log(cart[1])
+
+
+console.log(cart[0][itemName])
+
 removeFromCart("fruit")
 
 function removeFromCart(item) {
