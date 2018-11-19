@@ -78,7 +78,6 @@ function removeFromCart(item) {
   var itemNum = search(item)
   if (itemNum > -1){
     delete cart[itemNum]
-    console.log(cart)
   } else {
     return "That item is not in your cart."
   }
