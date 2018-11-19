@@ -59,13 +59,16 @@ function total() {
 
 
 removeFromCart("fruit")
-/*
+
 function search(item, cart) {
   for (var i = 0; i < cart.length; i++) {
-    return cart[i]
+    if (cart[i].item === itemName) {
+        return cart[i]
+    }
+  }
 }
 console.log(search())
-*/
+
 
 function removeFromCart(item) {
   var i = 0
