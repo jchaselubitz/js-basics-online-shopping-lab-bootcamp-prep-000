@@ -62,10 +62,10 @@ function total() {
 search ("fruit")
 function search(item) {
   for (var i = 0; i < cart.length; i++) {
-    if (cart[i].itemName === "fruit") {
-        something = cart[i]
+    if (cart[i].itemName === item) {
+        itemToRemove = cart[i]
     }
-  } return something
+  } return itemToRemove
 }
 console.log(search())
 /*
